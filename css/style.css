@@ -722,7 +722,6 @@ body.admin-bar .header {
   position: relative;
   width: 100%;
   max-width: 576px;
-  height: 486px;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
@@ -730,8 +729,7 @@ body.admin-bar .header {
 
 .about-single-img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   display: block;
   border-radius: 20px;
 }
@@ -5087,8 +5085,7 @@ body.admin-bar .header {
 
 .contact-image-wrapper img {
   width: 100%;
-  aspect-ratio: 1.3 / 1;
-  object-fit: cover;
+  height: auto;
   border-radius: 28px;
   display: block;
 }
