@@ -110,7 +110,7 @@ ul {
   font-family: var(--font-heading);
   font-weight: 500;
   font-style: normal;
-  font-size: 76px;
+  font-size: 70px;
   line-height: 77.52px;
   letter-spacing: -1.9px;
   color: var(--color-white);
@@ -461,7 +461,7 @@ ul {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  width: 312.4745788574219px;
+  width: 330.4745788574219px;
   height: 29.467594146728516px;
   transform: rotate(0deg);
   opacity: 1;
@@ -488,7 +488,7 @@ ul {
 .hero-heading {
   font-family: var(--font-heading);
   font-weight: 500;
-  font-size: 76px;
+  font-size: 70px;
   line-height: 77.52px;
   letter-spacing: -1.9px;
   color: #ffffff;
@@ -800,15 +800,17 @@ ul {
   font-size: 18px;
   line-height: 28px;
   color: #64748b;
-  margin-bottom: 44px;
+  margin-bottom: 28px;
 }
 
 .stats-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 36px 32px;
-  border-top: none;
-  padding-top: 0;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  width: 100%;
+  margin-top: 48px;
+  padding-top: 36px;
+  border-top: 1px solid #e2e8f0;
 }
 
 .stat-item {
@@ -824,6 +826,7 @@ ul {
   color: #0f172a;
   margin-bottom: 6px;
   letter-spacing: -0.5px;
+  white-space: nowrap;
 }
 
 .stat-label {
@@ -2369,6 +2372,12 @@ ul {
   position: relative;
   z-index: 20;
   box-sizing: border-box;
+}
+
+.home-stats-bar {
+  margin: 56px auto 0 auto;
+  transform: none;
+  box-shadow: 0px 10px 30px 0px rgba(19, 23, 18, 0.06);
 }
 
 .stat-bar-item {
